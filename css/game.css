@@ -1,0 +1,14 @@
+.background    { background: rgb(246, 100, 160);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.slime          { background: rgb(100, 300, 90); }
+.wall          { background: black;   }
+.floater       { background: purple;}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
